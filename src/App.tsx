@@ -18,10 +18,12 @@ function App() {
       Vite 5 + React
       <div>
         { sha1(obj) }
-
       </div>
       <div>
         { sha1(obj2) }
+      </div>
+      <div>
+        The following text is encoded and decoded with Buffer: { Buffer.from('Hello!').toString() }..
       </div>
     </div>
   )

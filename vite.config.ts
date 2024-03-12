@@ -5,7 +5,7 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), nodePolyfills({
-    include: ['buffer', 'timers/promises']
+    include: ['timers/promises']
   })],
   server: {
     port: 3000,
